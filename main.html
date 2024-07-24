@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Applicant Storyboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="storyboard">
+        <div class="applicant-card" id="applicant-card">
+            <div class="basic-info">
+                <h2>John Doe</h2>
+                <p>Position: Front-End Developer</p>
+                <button class="toggle-btn" onclick="toggleDetails()">View More</button>
+            </div>
+            <div class="detailed-info" id="detailed-info">
+                <p>Email: john.doe@example.com</p>
+                <p>Experience: 5 years in Web Development</p>
+                <p>Skills: HTML, CSS, JavaScript, React</p>
+                <button class="toggle-btn" onclick="toggleDetails()">View Less</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
